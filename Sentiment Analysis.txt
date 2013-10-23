@@ -3,9 +3,7 @@
 "2"	0	"Samsung to launch two sub-Rs. 15,000 smartphones in India in September"	"Neutral"
 "3"	1	"Thinking about getting a Apple thunderbolt display? Anyone using one? If so what are they like?"	"Positive"
 "4"	3	"I need to get the 5s  gold one too. I love Apple 5S gold."	"Positive"
-"5"	4	"Yey! Starting to love my new and very own Samsung Galaxy Tab 2!!!
-Super useful and friendly!
-sooo love it!"	"Positive"
+"5"	4	"Yey! Starting to love my new and very own Samsung Galaxy Tab 2!!!Super useful and friendly! sooo love it!"	"Positive"
 "6"	2	"Apple fans join 8-day queue for iPhone 5S. Excited fo Apple."	"Positive"
 "7"	2	"Was that DELICIOUS apple really worth the frostbite that now resides in my upper appendages?"	"Positive"
 "8"	0	"Can't wait for my iPhone 5s hope I can get one soooooooooooon!"	"Neutral"
