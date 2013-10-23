@@ -2,7 +2,7 @@ pos = scan('positive-words.txt', what='character', comment.char=';')
 
 neg = scan('negative-words.txt', what='character', comment.char=';')
 
-Tweets.text<-kunal$text
+Tweets.text<-l$text
 
 analysis <- score.sentiment(Tweets.text, pos, neg)
 
