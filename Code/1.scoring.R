@@ -1,4 +1,4 @@
-score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
+score.sentiment = function(directory_address,file, pos.words, neg.words, .progress='none')
   
 {
   
@@ -13,7 +13,7 @@ score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
   # we want a simple array ("a") of scores back, so we use
   
   # "l" + "a" + "ply" = "laply":
-  
+  sentences<-readLines(file)
   scores = laply(sentences, function(sentence, pos.words, neg.words) {
     
     # clean up sentences with R's regex-driven global substitute, gsub():
