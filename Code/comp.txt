@@ -1,0 +1,45 @@
+#Stanford NLP:
+
+Everyone in the state of Louisiana knows about the Bayou Corne sinkhole.
+  Predicted sentiment: Positive
+It even shows up on Google Maps.
+  Predicted sentiment: Positive
+But it still took a year for the crisis to get national attention, by which time
+ the pit of brackish water was 24 acres across.
+  Predicted sentiment: Negative
+And when the nation finally turned its eye on Bayou Corne, it wasn?t because of
+the Mother Jones expose.
+  Predicted sentiment: Positive
+It was because of a YouTube video.
+  Predicted sentiment: Neutral
+The video, ?8/21/13 Slough in,? opens on a copse of hulking cedars at the edge o
+f what appears to be a calm lake.
+  Predicted sentiment: Negative
+Suddenly, voices in the background shout, ?They?re moving!
+  Predicted sentiment: Negative
+as a dozen trees glide downward in unison, their tops shaking and quivering as t
+hey?re sucked beneath the surface.
+  Predicted sentiment: Negative
+Soon, the water is still again.
+  Predicted sentiment: Neutral
+The video was posted everywhere from CBS to Gawker, and now has 6.7 million view
+s.
+  Predicted sentiment: Negative
+Reporters from CNN, Al Jazeera, and The New York Times headed to Bayou Corne, th
+e unincorporated fishing town next to the sinkhole.
+  Predicted sentiment: Negative
+John Boudreaux, the local official coordinating the containment of the sinkhole
+and the accompanying methane gas leaks, is the one who shot the video.
+  Predicted sentiment: Positive
+He?s hoping all the attention will inspire help from the federal government, but
+ that hasn?t happened yet.
+  Predicted sentiment: Neutral
+Waiting has become a theme in Bayou Corne.
+  Predicted sentiment: Neutral
+My estimate for just gas removal is three to five years from now, and we?ve been
+ in this event for a year,? says Boudreaux, who?s been at the site every day by
+8AM since the sinkhole showed up.
+  Predicted sentiment: Negative
+It?s quite frustrating, the amount of time it?s taken to get things accomplished
+.
+  Predicted sentiment: Negative
