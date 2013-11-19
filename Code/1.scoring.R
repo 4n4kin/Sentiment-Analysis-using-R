@@ -1,4 +1,4 @@
-score.sentiment = function(directory_address,file, pos.words, neg.words, .progress='none')
+score.sentiment = function(file, pos.words, neg.words, .progress='none')
   
 {
   

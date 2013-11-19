@@ -1,22 +1,22 @@
 #Labeling Sentiment
-lable<-function(analysis)
+lable<-function(score.df)
 {
-  sentiment<-c(1:nrow(analysis))
-  nature<-c(1:nrow(analysis))
-  analysis<-cbind(analysis,sentiment,nature)
-  for(i in 1:nrow(analysis)){
-  if(analysis$score[i]==0){
-    analysis$sentiment[i]<-"Neutral"
-    analysis$nature[i]<-0
+  sentiment<-c(1:nrow(score.df))
+  nature<-c(1:nrow(score.df))
+  score.df<-cbind(score.df,sentiment,nature)
+  for(i in 1:nrow(score.df)){
+  if(score.df$score[i]==0){
+    score.df$sentiment[i]<-"Neutral"
+    score.df$nature[i]<-0
   }
-  if(analysis$score[i]<0){
-    analysis$sentiment[i]<-"Negative"
-    analysis$nature[i]<--1
+  if(score.df$score[i]<0){
+    score.df$sentiment[i]<-"Negative"
+    score.df$nature[i]<--1
   }
-  if(analysis$score[i]>0){
-    analysis$sentiment[i]<-"Positive"
-    analysis$nature[i]<-1
+  if(score.df$score[i]>0){
+    score.df$sentiment[i]<-"Positive"
+    score.df$nature[i]<-1
   }
 }
-return(analysis)
+return(score.df)
 }
