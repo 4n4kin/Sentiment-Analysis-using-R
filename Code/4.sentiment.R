@@ -1,4 +1,4 @@
-sentiment<-function(directory,file="input.txt"){
+sentiment<-function(directory=getwd(),file="input.txt"){
   setwd=(directory)
   pos = scan('positive-words.txt', what='character', comment.char=';')
   

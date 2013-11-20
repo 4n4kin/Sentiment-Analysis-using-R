@@ -11,7 +11,7 @@ plot<-function(score){
   as.data.frame(final)->final
   q<-ggplot(data=final, aes(x=Sentiment, y=Frequency,width=0.3,fill=Sentiment)) +
     geom_bar(stat="identity") +
-    theme_wsj()+
+    theme_economist()+
     guides(fill=F)
   print(q)
   return(final)
