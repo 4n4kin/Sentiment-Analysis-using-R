@@ -1,7 +1,6 @@
 #plotting
 plot<-function(score){
   require(ggplot2)
-  print("Categorizing Text Statements")
   Positive<-sum(score$nature==1)
   Negative<-sum(score$nature==-1)
   Neutral<-sum(score$nature==0)

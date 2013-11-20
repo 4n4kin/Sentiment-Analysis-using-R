@@ -9,8 +9,11 @@ sentiment<-function(directory=getwd(),file="input.txt"){
   pos.polarity=nrow(analysis[analysis$score>0,])/nrow(analysis[analysis$score!=0,])
   neg.polarity=nrow(analysis[analysis$score<0,])/nrow(analysis[analysis$score!=0,])
   
-  pos.polarity
-  neg.polarity
+  print("Polarity:")
+  print("Positive:")
+  print(pos.polarity)
+  print("Negative:")
+  print(neg.polarity)
   
   table=table(analysis$score)
   mean=mean(analysis$score)
