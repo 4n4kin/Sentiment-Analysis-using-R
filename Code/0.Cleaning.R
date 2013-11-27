@@ -1,10 +1,9 @@
 #Text Cleaning: tm Code
 clean<-function(text){
   library(tm)
-  text1$text->text
   sample<- Corpus(VectorSource(text),readerControl=list(language="english"))
   tm_map(sample, function(x) iconv(enc2utf8(x), sub = "byte"))
-  sample<-tm_map(sample,tolower)
+  #sample<-tm_map(sample,tolower)
   sample<-tm_map(sample,removePunctuation)
   sample <- tm_map(sample, stripWhitespace)
   sample<-tm_map(sample,removeNumbers)

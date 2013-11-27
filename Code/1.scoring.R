@@ -26,7 +26,7 @@ score.sentiment = function(file, pos.words, neg.words, .progress='none')
     
     # and convert to lower case:
     
-    sentence = tolower(sentence)
+    sentence = tolower(x=sentence)
     
     # split into words. str_split is in the stringr package
     
